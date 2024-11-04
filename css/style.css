@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=PT+Sans+Narrow:wght@400;700&family=Playpen+Sans:wght@200&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Poppins;
+}
+
+/* navbar */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    background-color: rgb(233, 231, 231);
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #7fa36b;
+    background-color: #240A34;
+    padding: 3px 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+
+}
+
+nav div a:hover {
+    color: #B0C5A4;
+}
+
+.link_info ul li {
+    list-style: none;
+}
+
+.link_info ul li a {
+    text-decoration: none;
+    color: #D37676;
+    font-weight: 900;
+    background-color: #F6F193;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+#user{
+    color: #7fa36b;
+    background-color: #edf100;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(38, 114, 95);
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.counter{
+    position: absolute;
+    top:12px;
+    right: 105px;
+    color: #B0C5A4;
+    font-size: 12px;
+}
+/* cart shopping  */
+
+.bi-bag-fill {
+    color: #7fa36b;
+    background-color: #240A34;
+    cursor: pointer;
+}
+
+.bi-bag-fill:hover {
+    color: #B0C5A4;
+}
+.bag-shop{
+    position: absolute;
+    bottom: 5.6%;
+    right: 3.6%;
+}
+/* cart input */
+.cart-quntiity{
+    outline: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+/* cart porduct container */
+.cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    min-height: 100vh;
+    background-color: rgb(233, 231, 231);
+    display: none;
+}
+
+/* log out logo */
+
+.bi-box-arrow-right {
+    color: #7fa36b;
+    background-color: #240A34;
+    cursor: pointer;
+}
+
+.bi-box-arrow-right:hover {
+    color: #B0C5A4;
+}
+
+/* cards */
+.card {
+    border: solid 1px black;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.card p,span {
+    font-size: .8rem;
+    font-weight: 500;
+
+}
+

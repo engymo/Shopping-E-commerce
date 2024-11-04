@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=PT+Sans+Narrow:wght@400;700&family=Playpen+Sans:wght@200&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,700&display=swap');
+
+body{
+    background-image: url(../image/heart-1192662.jpg);
+    background-size: cover;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Poppins;
+}
+ /* navbar */
+ header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ nav{
+    background-color: rgb(233, 231, 231);
+}
+nav .logo a{
+    text-decoration: none;
+    color: rgb(38, 114, 95);
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+nav div a:hover{
+    color: rgb(11, 155, 119);
+
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: rgb(38, 114, 95);
+    font-weight: 900;
+}
+/* form */
+section{
+    background-color:rgb(102, 165, 102) ;
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+section h4{
+    padding: 20px;
+    color: rgb(229, 199, 160);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+form input{
+    display: block;
+    width: 95%;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: auto;
+    font-size: 14px;
+}
+
+form input [type=submit]{
+    font-family: Poppins;
+}
+
+section input[type=submit]:hover{
+    opacity: .8;
+}
+section p{
+    color: rgb(229, 199, 160);
+}
+section p a{
+    text-decoration: none;
+    color: rgb(229, 199, 160);
+}
+section p a:hover{
+    color: rgb(42, 24, 58);
+}
